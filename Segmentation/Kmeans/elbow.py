@@ -21,7 +21,7 @@ def calculate_WSS(points, kmax):
     sse.append(curr_sse)
   return sse
 
-image = cv2.imread('segmented_image.png') 
+image = cv2.imread('dataset with preprocess/preprocessed/Bacterial Canker/IMG_20211106_121111 (Custom).jpg') 
 
 # Convert image to RGB
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) 

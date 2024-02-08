@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 # Read the image
-image = cv2.imread('test_images/20211008_124250 (Custom).jpg') 
+image = cv2.imread('dataset with preprocess/preprocessed/Anthracnose/IMG_20211011_170204 (Custom).jpg') 
 
 # Convert image to RGB
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) 
