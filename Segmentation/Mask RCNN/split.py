@@ -3,7 +3,7 @@ import shutil
 import random
 
 # Path to your main dataset folder
-dataset_folder = "dataset"
+dataset_folder = "dataset with preprocess/preprocessed"
 # Path to save the split dataset
 output_folder = "dataset maskrcnn"
 
@@ -11,7 +11,7 @@ output_folder = "dataset maskrcnn"
 train_ratio = 0.8
 valid_ratio = 1 - train_ratio
 
-# Iterate through each subfolder (class folder)
+# Iterate through each subfolder (class folder)                                                                 
 for class_folder in os.listdir(dataset_folder):
     class_path = os.path.join(dataset_folder, class_folder)
     if os.path.isdir(class_path):
