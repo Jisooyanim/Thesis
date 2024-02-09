@@ -32,6 +32,6 @@ def kmeans_segmentation(input_folder, output_folder, k=5):
     print('Done!')
 
 if __name__ == '__main__':
-    input_folder = 'dataset with preprocess/preprocessed/Sooty Mould'
-    output_folder = 'dataset with preprocess/Segmented/Sooty Mould'
+    input_folder = 'Images/test'
+    output_folder = 'Images/With preprocess/Segmentation/kmeans'
     kmeans_segmentation(input_folder, output_folder)
